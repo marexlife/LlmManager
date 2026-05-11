@@ -1,7 +1,5 @@
-void main() {
-    IO.println("Hello and welcome!");
+import main.LlmManager;
 
-    for (var i = 0; i < 5; ++i) {
-        IO.println("i = " + i);
-    }
+void main() {
+    new LlmManager().run();
 }
